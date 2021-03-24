@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+
 int main()
 {
 	int maxNumber,oldbase,r,quotient,baseBNum;
@@ -26,6 +27,6 @@ int main()
 	r=quotient%val1;
         	
 	baseBNum=r*1000+r*100+r*10+r;
-	printf("\nthe number in base %d is %d",val1,baseBNum);
+	printf("\nThe number in base %d is %d",val1,baseBNum);
 	return 0;
 }
